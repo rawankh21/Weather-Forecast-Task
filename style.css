@@ -1,0 +1,108 @@
+body {
+    background-image: url('/weather/imgs/pexels-suissounet-2101187.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
+    font-size: 1.2rem !important;
+    color: #535353 !important; 
+    margin-left: 9rem !important;
+}
+
+.navbar-nav .nav-link.active {
+    font-size: 14px !important; 
+}
+.navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        margin-right: 9rem;
+}
+
+img, svg {
+    vertical-align: middle;
+    font-size: larger !;
+    width: 2rem;
+    height: 3rem;
+}
+/* End NavBar */
+
+
+/* Hero Section */
+.hero {
+ 
+  background-size: cover;      
+  background-position: center; 
+   background-repeat: no-repeat;
+  height: 500px; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start!important;
+    padding-top: 100px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  background: white;
+  padding: 8px;
+  border-radius: 50px;
+  width: 50%;
+  max-width: 600px;
+
+}
+
+.search-box input {
+  border: none;
+  flex: 1;
+  outline: none;
+  box-shadow: none;
+}
+.align-items-center {
+    align-items: start !important;
+}
+
+.search-box button {
+  border-radius: 50px;
+  padding: 6px 20px;
+}
+
+/* start cards */
+.weather-card {
+  background: #e2e9f5; 
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+
+.weather-card .card-header {
+  background: #9ac9eb;        
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  margin: -16px -16px 10px -16px; 
+  border-radius: 8px 8px 0 0;     
+}
+
+.weather-card .temp {
+  font-weight: bold;
+}
+
+.weather-card .condition {
+  color: red;
+}
+
+.forecast {
+  margin-top: -180px;  
+  position: relative;
+  z-index: 2;        
+}
+
+img, svg {
+    vertical-align: middle;
+    width: 45px;
+}

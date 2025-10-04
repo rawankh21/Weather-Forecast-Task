@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/bootstrap-5.3.7-dist/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-light" style="background-color: #ecf2fb;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cloud-moon-fill" viewBox="0 0 16 16"> <path d="M11.473 11a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 16h8.5a2.5 2.5 0 0 0 0-5z"/> <path d="M11.286 1.778a.5.5 0 0 0-.565-.755 4.595 4.595 0 0 0-3.18 5.003 5.5 5.5 0 0 1 1.055.209A3.6 3.6 0 0 1 9.83 2.617a4.593 4.593 0 0 0 4.31 5.744 3.58 3.58 0 0 1-2.241.634q.244.477.394 1a4.59 4.59 0 0 0 3.624-2.04.5.5 0 0 0-.565-.755 3.593 3.593 0 0 1-4.065-5.422z"/> </svg>Weather</a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Live Cameras</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Photos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- start hero -->
+<!-- start Searh -->
+<section class="hero d-flex justify-content-center">
+  <div class="search-box">
+    <input type="text" class="form-control" placeholder="Search city..." />
+    <button class="btn btn-primary">Find</button>
+  </div>
+</section>
+
+<section class="forecast container ">
+   <div class="row">
+    <div class="col-md-4 mb-3">
+      <div class="weather-card p-3"id="day1">
+  <div class="card-header">
+    <span>Sunday</span>
+    <span>28 September</span>
+  </div>
+  <div class="card-body">
+    <h5 class="city">Shanghai</h5>
+    <h2 class="temp">26.2°C <img src="" alt=""></h2>
+    <p class="condition">Partly cloudy</p>
+    <div class="details">
+      <span><i class="fa-solid fa-umbrella"></i> 20%</span>
+      <span><i class="fa-solid fa-wind"></i> 18km/h</span>
+      <span><i class="fa-solid fa-compass"></i> East</span>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="col-md-4 mb-3">
+     <div class="weather-card p-3"id="day2">
+  <div class="card-header">
+    <span style=" margin-left: 108px;">Sunday</span>
+  </div>
+  <div class="card-body">
+    <img src="" alt="">
+    <h5 class="temp">26.2°C </h5>
+    <p class="condition">Partly cloudy</p>
+    <div class="details">
+      <span> 20%</span>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="col-md-4 mb-3">
+     <div class="weather-card p-3"id="day3">
+  <div class="card-header">
+    <span style=" margin-left: 108px;">Sunday</span>
+  </div>
+  <div class="card-body">
+    <img src="" alt="">
+    <h5 class="temp">26.2°C </h5>
+    <p class="condition">Partly cloudy</p>
+    <div class="details">
+      <span style="color:gray">20%</span>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</section>
+
+<!-- end Searh -->
+<!-- start cards -->
+
+
+
+    <!--JS FILES  -->
+    <script src="main.js"></script>
+    <script src="/bootstrap-5.3.7-dist/bootstrap.bundle.min.js"></script>
+</body>
+</html>
