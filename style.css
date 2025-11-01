@@ -1,8 +1,9 @@
 body {
-    background-image: url('/imgs/pexels-suissounet-2101187.jpg') ;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url('imgs/pexels-suissounet-2101187.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 /* Navbar */
 .navbar-brand {
   font-weight: bold;
@@ -112,4 +113,5 @@ img, svg {
     vertical-align: middle;
     width: 45px;
 }
+
 
