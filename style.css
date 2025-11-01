@@ -1,5 +1,5 @@
 body {
-    background-image: url('/weather/imgs/pexels-suissounet-2101187.jpg'); 
+    background-image: url('/imgs/pexels-suissounet-2101187.jpg') ;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -8,7 +8,7 @@ body {
   font-weight: bold;
     font-size: 1.2rem !important;
     color: #535353 !important; 
-    margin-left: 9rem !important;
+    margin-left: 7rem !important;
 }
 
 .navbar-nav .nav-link.active {
@@ -106,3 +106,10 @@ img, svg {
     vertical-align: middle;
     width: 45px;
 }
+
+
+img, svg {
+    vertical-align: middle;
+    width: 45px;
+}
+
