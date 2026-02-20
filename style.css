@@ -1,5 +1,5 @@
 body {
-  background-image: url('imgs/pexels-suissounet-2101187.jpg');
+  background-image: url('../imgs/pexels-suissounet-2101187.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -113,6 +113,7 @@ img, svg {
     vertical-align: middle;
     width: 45px;
 }
+
 
 
 
